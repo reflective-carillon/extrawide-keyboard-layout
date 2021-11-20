@@ -27,6 +27,8 @@ ______x   c   d   v   z  esc ret  k   h   ,<  .>  /?_____
 fn m01fn  ^ bkspc ______shift______  spc  alt  ^
 ```
 
+### Details
+
 The "m01fn" key is like the "fn" key on the Model01. Holding it down changes the keys on 
 the right hand. In combination with the original escape key, it switches between Colemak-DH and QWERTY.
 
@@ -46,6 +48,8 @@ characters, but I'm aware that this is a significant flaw in making this layout 
 people. I'm not sure where would be a good place to add one. Ideally, I would like holding the 
 backspace key to be m01fn, but I couldn't figure out how to make this work in xkb without also 
 sending a backspace. If that were possible, then holding the space key for AltGr seems nice.
+
+### With the Model01-style function key held
 
 ```
 colemak/qwerty
