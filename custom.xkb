@@ -734,13 +734,13 @@ xkb_symbols "custom" {
 
     // ----- Thumb keys ----- //
 
-    key <LCTL> {         [      ISO_Level5_Shift ] };
-    key <LWIN> {         [       Control_L ] };
-    key <LALT> {         [       BackSpace ] };
-    key <SPCE> {         [         Shift_R ] };
-    key <RALT> {         [           space ] };
-    key <PRSC> {         [           Alt_L ] };
-    key <RCTL> {         [       Control_R ] };
+    key <LCTL> {         [         Control_L ] };
+    key <LWIN> {         [  ISO_Level5_Shift ] };
+    key <LALT> {         [         BackSpace ] };
+    key <SPCE> {         [           Shift_R ] };
+    key <RALT> {         [             space ] };
+    key <PRSC> {         [             Alt_L ] };
+    key <RCTL> {         [         Control_R ] };
 
     // ----- Misc ----- //
 
@@ -791,8 +791,8 @@ xkb_symbols "custom" {
     key <I238> {         [ XF86KbdBrightnessUp ] };
 
     // Thumb mods
-    modifier_map Mod5 { <LCTL> };
-    modifier_map Control { <LWIN> };
+    modifier_map Control { <LCTL> };
+    modifier_map Mod5 { <LWIN> };
     modifier_map Shift { <SPCE> };
     modifier_map Mod1 { <PRSC> };
     modifier_map Control { <RCTL> };
