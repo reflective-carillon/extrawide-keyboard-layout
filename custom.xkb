@@ -534,7 +534,7 @@ xkb_symbols "custom" {
         type= "M01FN",
 	// C-M-% runs a command to set the keyboard layout to normal QWERTY, for guests.
         symbols[Group1]= [         NoSymbol,          Escape,         Super_R ],
-	actions[Group1]= [  RedirectKey(key=<AE04>, mods=Control+Shift+Mod1), NoAction(), NoAction() ]
+	actions[Group1]= [  RedirectKey(key=<AE04>, mods=Control+Shift+Mod1), NoAction(), LockMods(modifiers=Mod3) ]
     };
     key <FK01> {
         type= "CTRL+ALT",
