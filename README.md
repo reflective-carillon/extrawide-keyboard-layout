@@ -55,7 +55,7 @@ sending a backspace. If that were possible, then holding the space key for AltGr
 colemak/qwerty
 _   _   _   _   _   _   _   _   _   _   _   _   _   _____
 ___   _   _   _   _   _   _   _   {   }   [   ]   _   ___
-_____   _   _   _   _   _   _   <-  v   ^  ->   _    ____
-_______   _   _   _   _   _   _  home pgdn pgup end _____
+_____  esc esc esc  _   _   _   <-  v   ^  ->   _    ____
+_______   _  esc  _   _   _   _  home pgdn pgup end _____
 _  _  m01fn   _   __________________   _    _   _
 ```

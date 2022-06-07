@@ -651,16 +651,16 @@ xkb_symbols "custom" {
 
     key <CAPS> {         [               a,               A ] };
     key <AC01> {
-        type= "ALPHA_MOD3_ALPHA",
-        symbols[Group1]= [               r,               R,                             s, S ]
+        type= "M01FN_ALPHA_MOD3_ALPHA",
+        symbols[Group1]= [               r,               R,         Escape,             s, S ]
     };
     key <AC02> {
-        type= "ALPHA_MOD3_ALPHA",
-        symbols[Group1]= [               s,               S,                             d, D ]
+        type= "M01FN_ALPHA_MOD3_ALPHA",
+        symbols[Group1]= [               s,               S,         Escape,             d, D ]
     };
     key <AC03> {
-        type= "ALPHA_MOD3_ALPHA",
-        symbols[Group1]= [               t,               T,                             f, F ]
+        type= "M01FN_ALPHA_MOD3_ALPHA",
+        symbols[Group1]= [               t,               T,         Escape,             f, F ]
     };
     key <AC04> {
         type= "ALPHABETIC",
@@ -698,8 +698,8 @@ xkb_symbols "custom" {
         symbols[Group1]= [               c,               C ]
     };
     key <AB02> {
-        type= "ALPHA_MOD3_ALPHA",
-        symbols[Group1]= [               d,               D,                             v, V ]
+        type= "M01FN_ALPHA_MOD3_ALPHA",
+        symbols[Group1]= [               d,               D,         Escape,             v, V ]
     };
     key <AB03> {
         type= "ALPHA_MOD3_ALPHA",
