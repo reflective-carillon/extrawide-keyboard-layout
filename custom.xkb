@@ -667,7 +667,7 @@ xkb_symbols "custom" {
         symbols[Group1]= [               g,               G ]
     };
     key <AC05> { [                     Tab,    ISO_Left_Tab ] };
-    key <AC06> { [                  Return ] };
+    key <AC06> { [                     KP_Insert ] };
     key <AC07> {
         type= "M01FN_ALPHA_MOD3_ALPHA",
         symbols[Group1]= [               m,               M,           Left,             h, H ]
