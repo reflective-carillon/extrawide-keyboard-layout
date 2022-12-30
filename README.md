@@ -22,7 +22,7 @@ the left so that keys pressed with a single finger are lined up with the finger'
 esc
 1   2   3   4   5  sup caps 6   7   8   9   0   -_  =+___
 __q   w   f   p   b  `~ multi j   l   u   y;   \|  multi_
-____a   r   s   t   g  tab ret  m   n   e   i   o   '"___
+____a   r   s   t   g  tab ins  m   n   e   i   o   '"___
 ______x   c   d   v   z  esc ret  k   h   ,<  .>  /?_____
 fn  ^ m01fn bkspc ______shift______  spc  alt  ^
 ```
@@ -36,8 +36,7 @@ The "multi" key is what xkb calls a "compose" key, which provides shortcuts for 
 For example, the sequence of compose, apostrophe, and "e" makes "é".
 
 "sup" is the "super" key, which I only ever use by tapping it to reveal all open windows. 
-"ret" is return/enter. I have two of them because the one on the home row matches 
-the positioning on the default layout of the Model01, but I find the other one much easier to reach.
+"ret" is return/enter. There is an Insert key in the middle of the keyboard which I use as my Orca screenreader modifier key.
 
 Since both thumbs can reach the space bar, and I don't like holding with a thumb while 
 reaching for keys with the same hand, it made sense to use it for something that requires 
@@ -47,7 +46,7 @@ I don't need an AltGr key, since the multi key is enough for my occasional use o
 characters, but I'm aware that this is a significant flaw in making this layout useful for other 
 people. I'm not sure where would be a good place to add one. Ideally, I would like holding the 
 backspace key to be m01fn, but I couldn't figure out how to make this work in xkb without also 
-sending a backspace. If that were possible, then holding the space key for AltGr seems nice.
+sending a backspace. If that were possible, then holding the space key for AltGr seems nice. Or the Insert key in the middle of the keyboard could be replaced with AltGr.
 
 ### With the Model01-style function key held
 
